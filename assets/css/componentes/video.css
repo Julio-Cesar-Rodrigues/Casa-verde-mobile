@@ -1,0 +1,42 @@
+.card-video{
+  margin-bottom: 2rem;
+}
+
+.card-video-video{
+  position: relative;
+  width: 100%;
+  max-height: 15.5rem;
+  overflow: hidden;
+
+  margin-bottom: .5rem;
+}
+
+.card-video-video::before{
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+
+  display: block;
+
+  width: 4.875rem;
+  height: 4.875rem;
+  border-radius: 50%;
+
+  background-color: var(--white);
+  background-image: url(../../icones/play.svg);
+  background-repeat: no-repeat;
+  background-size: 1.75rem;
+  background-position: center left 55%;
+
+  cursor: pointer;
+}
+
+.card-video-title{
+  color: var(--black);
+  font-size: var(--title-size);
+  font-weight: var(--featured-bold);
+  margin-bottom: .5rem;
+}

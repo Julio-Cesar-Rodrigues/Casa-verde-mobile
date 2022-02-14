@@ -1,0 +1,41 @@
+@import url(_variables.css);
+@import url(reset.css);
+
+body{
+  background: url(../../img/fundo-textura.png), url(../../img/fundo-linhas.png);
+  background-position: center;
+  font-family: var(--font-body);
+  color: var(--grey);
+
+}
+
+.container{
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.title{
+  font-size: var(--title-size);
+}
+
+.title-featured{
+  color: var(--black);
+  display: block;
+  font-family: var(--title-featured);
+  font-size: var(--bold-title-size);;
+  font-weight: var(--title-bold);
+  margin-bottom: .75rem;
+  margin-top: .75rem;
+}
+
+.left-text{
+  text-align: left;
+}
+
+.center-text{
+  text-align: center;
+}
+
+.text{
+  line-height: 1.5;
+}
