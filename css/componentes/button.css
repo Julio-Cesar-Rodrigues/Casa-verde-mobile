@@ -1,0 +1,33 @@
+.button {
+    background-color: var(--yellow);
+    border: solid 1px var(--yellow);
+    box-shadow: 10px 10px 30px var(-light-yellow);
+    color: var(--white);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: var(--featured-bold);
+    padding-bottom: 1.75rem;
+    padding-top: 1.75rem;
+    text-align: center;
+    transition: all 0.3s;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.button:hover {
+    background-color: var(--white);
+    color: var(--yellow);
+    border: solid 1px var(--yellow)
+}
+
+.button-alt {
+    color: var(--yellow);
+    background-color: unset;
+    box-shadow: none;
+    border: 1px solid var(--yellow);
+}
+
+.button-alt:hover {
+    color: var(--white);
+    background-color: var(--yellow);
+}

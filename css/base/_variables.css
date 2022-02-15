@@ -1,0 +1,20 @@
+:root{
+  --black: #202020;
+  --grey: #909090;
+  --light-black: #0000000F;
+  --light-yellow: #FFCB473D ;
+  --yellow: #FFCB47;
+  --white: #FFFFFF;
+
+
+  --title-featured: "Elsie swash Caps", sans-serif;
+  --title-bold: 900;
+  --title-size: 1.375rem;
+  --bold-title-size: 2rem;
+
+  --featured-bold: 700; 
+
+  --font-body: "Montserrat", sans-serif;
+  --font-height: 1rem
+  
+}

@@ -1,0 +1,43 @@
+.footer {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+  background-color: var(--white);
+  background-image: url(../../img/splash-rodape.svg);
+  background-position: top -11rem right;
+  background-repeat: no-repeat;
+
+}
+
+.footer-logo{
+  max-width: 11.125rem;
+
+  margin-bottom:1.25rem;
+}
+
+.footer-social{
+  display:flex;
+
+  margin-bottom: 2rem;
+}
+
+.footer-social-midia{
+  display: inline-block;
+  width: 1.625rem;
+  height: 1.625rem;
+
+  margin-right: 1.625rem;
+}
+
+.footer-unite{
+  margin-bottom: 2rem;
+  
+}
+
+.footer-unite-title{
+  color: var(--black);
+  font-size: var(--bold-title-size);
+  font-weight: var(--featured-bold);
+  display: block;
+  margin-bottom: .5rem;
+}
